@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/ImageSlider.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/ImageSlider.js", "src/components/ImageSlider.js", "src/components/ImageSlider.js", "src/pages/index.js"],
   "exclude": ["node_modules"]
 }

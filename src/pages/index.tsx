@@ -1,9 +1,8 @@
 import Navbar from '@/components/Navbar'
-import ImageSlider from '@/components/ImageSlider'
-
-
+import MainContainer from '@/components/MainContainer'
+import dynamic from "next/dynamic"
+  const {} = dynamic(import("tw-elements"), { ssr: false });
+  
 export default function Home() {
-  return (
-    <><Navbar /><ImageSlider /></>
-  )
+    return (<><Navbar/><MainContainer/></>)
 }
