@@ -1,4 +1,4 @@
-import ImageSliderText from "./ImageSliderText";
+import ImageSliderText from "../HomePage/ImageSliderText";
 
 function scrollToBottom() {
     window.scrollTo({top: document.documentElement.scrollHeight, behavior: 'smooth'});
