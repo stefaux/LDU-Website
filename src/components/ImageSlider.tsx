@@ -1,8 +1,15 @@
+import ImageSliderText from "./ImageSliderText";
+
 function scrollToBottom() {
     window.scrollTo({top: document.documentElement.scrollHeight, behavior: 'smooth'});
 }
 
 function ImageSlider() {
+
+    const sliderTitle1 = "Do you want to improve your debating skills?";
+    const sliderText1 = "Meet the amazing debatters at the Leiden Debating Union";
+    const sliderMainButton1 = "Get to know us";
+    const sliderSecButton1 = "Learn more" 
 
     return (
 <div id = "carouselExampleCaptions" className = "relative h-screen" data-te-carousel-init data-te-carousel-slide >
@@ -13,21 +20,7 @@ function ImageSlider() {
 <div
     className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     {/*<!--First item-->*/}
-    <div className="relative float-left-mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-active data-te-carousel-item>
-        <img src="https://images.unsplash.com/photo-1609348978663-f6ef98731322?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="block w-full object-cover h-screen brightness-50" alt="..."/>
-        <div className="absolute inset-x-[15%] bottom-20 py-5 text-center text-white block">
-            <div className="text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Do you want to improve your debating skills?</h1>
-                <p className="mt-6 text-lg leading-8 text-white-600">Meet the amazing debatters at the Leiden Debating Union</p>
-                <div className="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="#" className="rounded-md bg-blue-700 hover:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get to know us</a>
-                    <a href="#" className="text-sm font-semibold leading-6 text-white-900">Learn more
-                        <span aria-hidden="true">→</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <ImageSliderText sliderTitle={sliderTitle1} sliderText={sliderText1} sliderMainButton={sliderMainButton1} sliderSecButton={sliderSecButton1}/>
     {/*<!--Second item-->*/}
     <div className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item >
         <img src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg" className="block w-full" alt="..."/>
