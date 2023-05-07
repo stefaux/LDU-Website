@@ -20,7 +20,7 @@ function ImageSlider() {
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Do you want to improve your debating skills?</h1>
                 <p className="mt-6 text-lg leading-8 text-white-600">Meet the amazing debatters at the Leiden Debating Union</p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="#" className="rounded-md bg-blue-700 hover:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                    <a href="#" className="rounded-md bg-blue-700 hover:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get to know us</a>
                     <a href="#" className="text-sm font-semibold leading-6 text-white-900">Learn more
                         <span aria-hidden="true">→</span>
                     </a>
