@@ -13,12 +13,6 @@ export default function CardContainer() {
       <div className="basis-1/3 m-5">
         <NavCard cardTitle={cardTitle1} cardText={cardText1} />
       </div>
-      <div className="basis-1/3 m-5">
-        <NavCard cardTitle={cardTitle2} cardText={cardText2} />
-      </div>
-      <div className="basis-1/3 m-5">
-        <NavCard cardTitle={cardTitle3} cardText={cardText3} />
-      </div>
     </div>
   );
 }

@@ -29,7 +29,7 @@ function ImageSliderText({
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-blue-700 hover:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-blue-700 hover:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
             >
               {sliderMainButton}
             </a>

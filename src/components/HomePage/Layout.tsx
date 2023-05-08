@@ -9,7 +9,7 @@ function Layout({ startingTheme }) {
     <ThemeProvider startingTheme={startingTheme}>
       <div className="container mx-auto">
         <ImageSlider />
-        <div className="bg-gradient-to-t from-indigo-900 to-gray-900">
+        <div className="bg-white">
           <CardContainer />
           <Tabs />
         </div>
