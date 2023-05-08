@@ -7,7 +7,7 @@ function classNames(...classes) {
 
 export default function Tabs() {
   let [categories] = useState({
-    Recent: [
+    Calendar: [
       {
         id: 1,
         title: "Does drinking coffee make you smarter?",
@@ -23,7 +23,7 @@ export default function Tabs() {
         shareCount: 2,
       },
     ],
-    Popular: [
+    Gallery: [
       {
         id: 1,
         title: "Is tech making coffee better or worse?",
@@ -39,7 +39,7 @@ export default function Tabs() {
         shareCount: 12,
       },
     ],
-    Trending: [
+    Blog: [
       {
         id: 1,
         title: "Ask Me Anything: 10 answers to your questions about coffee",
@@ -58,7 +58,7 @@ export default function Tabs() {
   });
 
   return (
-    <div className="w-full max-w-md px-2 py-16 sm:px-0">
+    <div className="w-full relative px-2 py-16 sm:px-0">
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
